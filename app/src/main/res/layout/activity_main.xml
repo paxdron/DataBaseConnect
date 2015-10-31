@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:padding="@dimen/activity_horizontal_margin"
+     tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <TextView android:text="@string/tvUser" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etUser"
+        android:inputType="text" />
+    <TextView android:text="@string/tvPsswd" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etPswd"
+        android:inputType="textPassword" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAcceder"
+        android:text="@string/btnAcceder"
+        android:onClick="Login"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnRegistro"
+        android:text="@string/registro"
+        android:onClick="registrarLayout"
+        />
+
+</LinearLayout>
